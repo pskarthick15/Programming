@@ -12,6 +12,7 @@ Soln idea: Always remember in game related problems we try to maximize our value
 
 
 ### 2. Trie insertion, startswith and search functionality and understanding its basic structure
+[trie insert startswith search](https://github.com/pskarthick15/Programming/blob/main/optimal_game.cpp)
 
 ### 3. Given a series or array of strings find the longest word in the string that has all the prefix words in the same array.
 For ex: given array => ["n","ni","nin","ninj","ninja","ninga"], here ninja is the longest word with all its prefixes of n, ni, nin, ninj and ninja in the same array itself.
