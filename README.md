@@ -20,3 +20,4 @@ For ex: given array => ["n","ni","nin","ninj","ninja","ninga"], here ninja is th
 ### 4. No of distinct substrings in a given string
 
 Given a string for ex. say abab find the number of distinct substrings in it. In this case it is[a,ab,aba,abab,b,ba,bab] and a general phi or null string. So 8.
+- [Distinct substrings](https://github.com/pskarthick15/Programming/blob/main/trie_4.cpp)
