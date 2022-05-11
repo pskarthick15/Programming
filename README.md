@@ -21,3 +21,16 @@ For ex: given array => ["n","ni","nin","ninj","ninja","ninga"], here ninja is th
 
 Given a string for ex. say abab find the number of distinct substrings in it. In this case it is[a,ab,aba,abab,b,ba,bab] and a general phi or null string. So 8.
 - [Distinct substrings](https://github.com/pskarthick15/Programming/blob/main/trie_4.cpp)
+
+
+### 5. Maximum xor value between 2 given array values
+
+Given 2 arrays arr1 and arr2 find the max value of xor possible between those 2 arrays. Now let us take a minified version of given problem. Let us say given an array arr and a number x, we want to find the max value for arr[i]^x. Now suppose we have the bit representation 0110. Now max exor is occurred when it is 1001. That is in places where 0 in number 1 needed and in places of 1 in number 0 is needed right. So, the question boils down to:
+ex: arr => [9,8,7,5,4] 9=>01001 , 8=>01000, 7=>00111, 5=>00101. say we have x=8 or =>01000. So now we need a 1 in 1st position. 9=>eliminate and 8=>eliminate and so on till all. So no other go keep 0 only and do or with 0 and move to next bit. Now we need a 0 in 2nd position. So, straight away 9 and 8 eliminate so ans is 7 or 5. So now 2nd palce is 1. So or it in our solution. So keep eliminating like this till we reach the result.
+
+### 6. Based on offline queries the approach for exoring is same.
+
+Given arr [0,1,2,3,4] and q queries say q=2. so 1 3 and 5 6. where 1 is xi and 3 is ai. We need to return the max xor of xi with arr[i] such that i<=ai.
+The algo is:
+1st sort the given array in ascending order.
+Then do offline queriying which is nothing but store index of query for later use in a DS and then sort based on ai. Then see algo in notebook
