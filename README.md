@@ -47,3 +47,20 @@ Given a list of strings, we need to find the shortest prefix of string such that
 Given a list of words in a dictionary and a single string. Find if the string is present in the dictionary or not.
 ex: [i,like,sam,sung] i/p: ilike, then o/p: Yes
 - [Word break](https://github.com/pskarthick15/Programming/blob/main/trie_sde2.cpp)
+
+### Phone Dictionary
+Given a list of contacts contact[] of length n where each contact is a string which exist in a phone directory and a query string s. The task is to implement a search query for the phone directory. Run a search query for each prefix p of the query string s (i.e. from  index 1 to |s|) that prints all the distinct contacts which have the same prefix as p.
+ex: 
+Input: 
+n = 3
+contact[] = {"geeikistest", "geeksforgeeks", 
+"geeksfortest"}
+s = "geeips"
+Output:
+geeikistest geeksforgeeks geeksfortest
+geeikistest geeksforgeeks geeksfortest
+geeikistest geeksforgeeks geeksfortest
+geeikistest
+0
+0
+- [Phone_dictionary](https://github.com/pskarthick15/Programming/blob/main/trie_sde3.cpp)
