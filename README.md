@@ -42,3 +42,8 @@ Then do offline queriying which is nothing but store index of query for later us
 Given a list of strings, we need to find the shortest prefix of string such that it can be uniquely identified among the list of strings.
 =>ex: i/p: [zebra,dog,duck,dove], o/p: [z,dog,du,dov]
 - [Shortest prefix](https://github.com/pskarthick15/Programming/blob/main/trie_sde1.cpp)
+
+### 8. Word break problem
+Given a list of words in a dictionary and a single string. Find if the string is present in the dictionary or not.
+ex: [i,like,sam,sung] i/p: ilike, then o/p: Yes
+- [Word break](https://github.com/pskarthick15/Programming/blob/main/trie_sde2.cpp)
