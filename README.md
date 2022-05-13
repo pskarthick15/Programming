@@ -82,9 +82,11 @@ row = 3, col = 4
 
 M[][] = {{1 1 0 1},{1 0 0 1},{1 1 0 1}}
 
-Output: 1 1 0 1 
+Output: 
 
-        1 0 0 1
+1 1 0 1 
+
+1 0 0 1
         
 Explanation: Above the matrix of size 3x4
 looks like
