@@ -2,100 +2,93 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 typedef struct node
 {
-    node* links[26];
-    vector<int>prefix;
+    node* links[2];
+    bool visited;
 }Node;
 
 class trie
 {
-    private: 
+    private:
         Node* root=new Node();
     public:
         trie()
         {
-            for(int i=0;i<26;i++)
-            {
-                root->links[i]=NULL;
-            }
+            root->links[0]=NULL;
+            root->links[1]=NULL;
+            root->visited=false;
         }
-        void insert(string word,int ind)
+        void insert(vector<int>word)
         {
             Node* ptr=root;
             for(int i=0;i<word.size();i++)
             {
-                if(ptr->links[word[i]-'a']==NULL)
+                if(ptr->links[word[i]]==NULL)
                 {
-                    ptr->links[word[i]-'a']=new Node();
+                    ptr->links[word[i]]=new Node();
                 }
-                ptr=ptr->links[word[i]-'a'];
-                ptr->prefix.push_back(ind);
+                ptr=ptr->links[word[i]];
             }
         }
-        vector<int>dict_prefix(string word)
+        vector<int>unique_rows(vector<int>word)
         {
+            Node* ptr=root;
             vector<int>ans;
-            Node* ptr=root;
-            bool flag=false;
             for(int i=0;i<word.size();i++)
             {
-                if(ptr->links[word[i]-'a']!=NULL)
+                if(ptr->links[word[i]]!=NULL)
                 {
-                    ptr=ptr->links[word[i]-'a'];
-                }
-                else
-                {
-                    ans.push_back(-1);
-                    flag=true;
-                    break;
+                    ptr=ptr->links[word[i]];
                 }
             }
-            if(flag==true)
+            if(ptr->visited==false)
             {
-                return ans;
+                ptr->visited=true;
+                return word;
             }
             else
             {
-                return ptr->prefix;
+                ans.push_back(-1);
+                return ans;
             }
         }
-        
 };
-
-
 
 
 int main() {
     // Write C++ code here
     //std::cout << "Hello world!";
-    int n;
-    cin>>n;
-    string s[n];
+    int m,n;
+    cin>>m>>n;
+    vector<vector<int>>arr;
+    vector<int>k;
     trie t;
-    for(int i=0;i<n;i++)
+    int l;
+    for(int i=0;i<m;i++)
     {
-        cin>>s[i];
-        t.insert(s[i],i);
-    }
-    string st;
-    cin>>st;
-    string str="";
-    int i=0;
-   for(int i=0;i<st.size();i++)
-   {
-       str+=st[i];
-       vector<int>a=t.dict_prefix(str);
-        if(a.size()==1 && a[0]==-1)
-            cout<<"0";
-        else
+        for(int j=0;j<n;j++)
         {
-            for(int j=0;j<a.size();j++)
+            cin>>l;
+            k.push_back(l);
+        }
+        arr.push_back(k);
+        t.insert(k);
+        k.clear();
+    }
+
+    for(int i=0;i<m;i++)
+    {
+        vector<int>a=t.unique_rows(arr[i]);
+        if(!(a.size()==1 && a[0]==-1))
+        {
+            for(int i=0;i<a.size();i++)
             {
-                cout<<s[a[j]]<<" ";
+                cout<<a[i]<<" ";
             }
         }
         cout<<endl;
-   }
+    }
     return 0;
 }
