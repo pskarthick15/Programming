@@ -37,3 +37,8 @@ The algo is:
 Then do offline queriying which is nothing but store index of query for later use in a DS and then sort based on ai. Then see algo in notebook
 
 - [Offline query](https://github.com/pskarthick15/Programming/blob/main/trie_6.cpp)
+
+### 7. Shortest unique prefix to represent each word uniquely
+Given a list of strings, we need to find the shortest prefix of string such that it can be uniquely identified among the list of strings.
+=>ex: i/p: [zebra,dog,duck,dove], o/p: [z,dog,du,dov]
+- [Shortest prefix](https://github.com/pskarthick15/Programming/blob/main/trie_sde1.cpp)
