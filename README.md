@@ -50,17 +50,25 @@ ex: [i,like,sam,sung] i/p: ilike, then o/p: Yes
 
 ### 9. Phone Dictionary
 Given a list of contacts contact[] of length n where each contact is a string which exist in a phone directory and a query string s. The task is to implement a search query for the phone directory. Run a search query for each prefix p of the query string s (i.e. from  index 1 to |s|) that prints all the distinct contacts which have the same prefix as p.
-ex: 
-Input: 
+
+ex: Input: 
+
 n = 3
 contact[] = {"geeikistest", "geeksforgeeks", 
 "geeksfortest"}
 s = "geeips"
+
 Output:
+
 geeikistest geeksforgeeks geeksfortest
+
 geeikistest geeksforgeeks geeksfortest
+
 geeikistest geeksforgeeks geeksfortest
+
 geeikistest
 0
+
 0
+
 - [Phone_dictionary](https://github.com/pskarthick15/Programming/blob/main/trie_sde3.cpp)
