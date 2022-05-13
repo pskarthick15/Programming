@@ -78,7 +78,9 @@ Given a binary matrix your task is to find all unique rows of the given matrix.
 ex: Input:
 row = 3, col = 4 
 M[][] = {{1 1 0 1},{1 0 0 1},{1 1 0 1}}
-Output: 1 1 0 1 $1 0 0 1 $
+
+Output: 1 1 0 1 
+        1 0 0 1
 Explanation: Above the matrix of size 3x4
 looks like
 1 1 0 1
@@ -86,3 +88,5 @@ looks like
 1 1 0 1
 The two unique rows are 1 1 0 1 and
 1 0 0 1 .
+Here the basic approach is to keep track of the word that has already been visited in our Trie. So we use a visited flag along with the links or children variable(for boolean value storage)
+- [Unique_rows](https://github.com/pskarthick15/Programming/blob/main/trie_sde3.cpp)
