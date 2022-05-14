@@ -22,3 +22,11 @@ values[] = {1,2,3} </br>
 weight[] = {4,5,1} </br>
 Output: 3 </br>
 
+### 3. nCr or factorial problem
+
+Given two integers n and r, find nCr. Since the answer may be very large. </br>
+
+Example 1: </br>
+Input: n = 3, r = 2 </br>
+Output: 3 </br>
+Explaination: 3C2 = 3. </br>
