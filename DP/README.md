@@ -51,4 +51,4 @@ Output: 26000 </br>
 There are 4 matrices of dimensions 40x20, 20x30, 30x10 and 10x30. </br>
 Let the input 4 matrices be A, B, C and D.  The minimum number of </br>
 multiplications are obtained by putting parenthesis in following way </br>
-(A(BC))D --> 20*30*10 + 40*20*10 + 40*10*30 </br>
+(A(BC))D --> 20 * 30 * 10 + 40 * 20 * 10 + 40 * 10 * 30 </br>
