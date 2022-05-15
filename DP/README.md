@@ -59,3 +59,20 @@ multiplications are obtained by putting parenthesis in following way </br>
 (A(BC))D --> 20 * 30 * 10 + 40 * 20 * 10 + 40 * 10 * 30 </br>
 
 - [MCM](https://github.com/pskarthick15/Programming/blob/main/DP/mcm.cpp)
+
+### 5. Edit Distance
+
+Given two strings s and t. Return the minimum number of operations required to convert s to t. </br>
+The possible operations are permitted: </br>
+
+Insert a character at any position of the string. </br>
+Remove any character from the string. </br>
+Replace any character from the string with any other character. </br>
+ 
+Example:
+
+Input: </br>
+s = "geek", t = "gesek" </br>
+Output: 1 </br>
+Explanation: One operation is required </br>
+inserting 's' between two 'e's of str1. </br>
