@@ -6,7 +6,6 @@ Given denomination of coins find the min no of ways needed to achieve a given am
 ex: [1,2,5] </br>
 amount=11(say)</br>
 now best is 3 (i.e 5,5,1)</br>
-
 - [Coin Change](https://github.com/pskarthick15/Programming/blob/main/DP/coin_change.cpp)
 ### 2. Knapsack problem
 
@@ -22,7 +21,6 @@ W = 4 </br>
 values[] = {1,2,3} </br>
 weight[] = {4,5,1} </br>
 Output: 3 </br>
-
 - [Knapsack](https://github.com/pskarthick15/Programming/blob/main/DP/knapsack.cpp)
 
 ### 3. nCr or factorial problem
@@ -33,7 +31,6 @@ Example 1: </br>
 Input: n = 3, r = 2 </br>
 Output: 3 </br>
 Explaination: 3C2 = 3. </br>
-
 - [nCr](https://github.com/pskarthick15/Programming/blob/main/DP/nCr.cpp)
 
 ### 4. Matrix Chain Multiplication (Partition DP)
@@ -57,7 +54,6 @@ There are 4 matrices of dimensions 40x20, 20x30, 30x10 and 10x30. </br>
 Let the input 4 matrices be A, B, C and D.  The minimum number of </br>
 multiplications are obtained by putting parenthesis in following way </br>
 (A(BC))D --> 20 * 30 * 10 + 40 * 20 * 10 + 40 * 10 * 30 </br>
-
 - [MCM](https://github.com/pskarthick15/Programming/blob/main/DP/mcm.cpp)
 
 ### 5. Edit Distance
@@ -76,3 +72,4 @@ s = "geek", t = "gesek" </br>
 Output: 1 </br>
 Explanation: One operation is required </br>
 inserting 's' between two 'e's of str1. </br>
+- [Edit Distance](https://github.com/pskarthick15/Programming/blob/main/DP/EditDistance.cpp)
