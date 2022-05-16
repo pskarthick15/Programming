@@ -98,4 +98,4 @@ Input : mat[][] = {{1, 3, 3}, </br>
                   
 Output : 12 </br>
 {(1,0)->(2,1)->(1,2)} </br>
-
+- [Gold mine](https://github.com/pskarthick15/Programming/blob/main/DP/max_gold_mine.cpp)
