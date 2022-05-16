@@ -73,3 +73,16 @@ Output: 1 </br>
 Explanation: One operation is required </br>
 inserting 's' between two 'e's of str1. </br>
 - [Edit Distance](https://github.com/pskarthick15/Programming/blob/main/DP/EditDistance.cpp)
+
+### 6. Equal subset sum partition
+
+Given an array arr[] of size N, check if it can be partitioned into two parts such that the sum of elements in both parts is the same.
+
+Example 1:
+
+Input: N = 4 </br>
+arr = {1, 5, 11, 5} </br>
+Output: YES </br>
+Explaination: </br>
+The two parts are {1, 5, 5} and {11}. </br>
+
