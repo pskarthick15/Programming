@@ -85,4 +85,17 @@ arr = {1, 5, 11, 5} </br>
 Output: YES </br>
 Explaination: </br>
 The two parts are {1, 5, 5} and {11}. </br>
+ - [Equal Subset](https://github.com/pskarthick15/Programming/blob/main/DP/equal_subset.cpp)
+
+### 7. Maximum value from Gold mine from all starting points
+
+Given a gold mine of n x m dimensions. Each field in this mine contains a positive integer which is the amount of gold in tons. Initially the miner is at first column but can be at any row. He can move only (right->,right up /,right down\) that is from a given cell, the miner can move to the cell diagonally up towards the right or right or diagonally down towards the right. Find out maximum amount of gold he can collect. </br>
+Examples: </br>
+ 
+Input : mat[][] = {{1, 3, 3}, </br>
+                   {2, 1, 4}, </br>
+                  {0, 6, 4}}; </br>
+                  
+Output : 12 </br>
+{(1,0)->(2,1)->(1,2)} </br>
 
