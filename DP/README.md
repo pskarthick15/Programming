@@ -114,3 +114,19 @@ Output: 4 </br>
 Explanation:Total length is 4, and the cut </br>
 lengths are 2, 1 and 1.  We can make </br>
 maximum 4 segments each of length 1. </br>
+
+### 9. Longest Common Subsequence 
+
+Given two sequences, find the length of longest subsequence present in both of them. Both the strings are of uppercase.
+
+Example:
+
+Input: </br>
+A = 6, B = 6 </br>
+str1 = ABCDGH </br>
+str2 = AEDFHR </br>
+Output: 3 </br>
+Explanation: LCS for input Sequences </br>
+“ABCDGH” and “AEDFHR” is “ADH” of </br>
+length 3. </br>
+
