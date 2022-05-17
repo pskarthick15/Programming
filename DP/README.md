@@ -99,3 +99,18 @@ Input : mat[][] = {{1, 3, 3}, </br>
 Output : 12 </br>
 {(1,0)->(2,1)->(1,2)} </br>
 - [Gold mine](https://github.com/pskarthick15/Programming/blob/main/DP/max_gold_mine.cpp)
+
+### 8. Maximize The Cut Segments
+
+Given an integer N denoting the Length of a line segment. You need to cut the line segment in such a way that the cut length of a line segment each time is either x , y or z. Here x, y, and z are integers. </br>
+After performing all the cut operations, your total number of cut segments must be maximum. </br>
+
+Example: 
+
+Input: </br>
+N = 4 </br>
+x = 2, y = 1, z = 1 </br>
+Output: 4 </br>
+Explanation:Total length is 4, and the cut </br>
+lengths are 2, 1 and 1.  We can make </br>
+maximum 4 segments each of length 1. </br>
