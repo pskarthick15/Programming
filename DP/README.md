@@ -114,6 +114,7 @@ Output: 4 </br>
 Explanation:Total length is 4, and the cut </br>
 lengths are 2, 1 and 1.  We can make </br>
 maximum 4 segments each of length 1. </br>
+- [Maximum cut](https://github.com/pskarthick15/Programming/blob/main/DP/Max_rod_cut.cpp)
 
 ### 9. Longest Common Subsequence 
 
@@ -129,4 +130,4 @@ Output: 3 </br>
 Explanation: LCS for input Sequences </br>
 “ABCDGH” and “AEDFHR” is “ADH” of </br>
 length 3. </br>
-
+- [LCS](https://github.com/pskarthick15/Programming/blob/main/DP/LCS.cpp)
