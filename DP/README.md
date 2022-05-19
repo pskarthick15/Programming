@@ -144,3 +144,4 @@ A[]={0,8,4,12,2,10,6,14,1,9,5,13,3,11,7,15} </br>
 Output: 6 </br>
 Explanation:Longest increasing subsequence </br>
 0 2 6 9 13 15, which has length 6 </br>
+- [LIS](https://github.com/pskarthick15/Programming/blob/main/DP/LIS.cpp) </br>
