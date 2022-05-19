@@ -131,3 +131,16 @@ Explanation: LCS for input Sequences </br>
 “ABCDGH” and “AEDFHR” is “ADH” of </br>
 length 3. </br>
 - [LCS](https://github.com/pskarthick15/Programming/blob/main/DP/LCS.cpp)
+
+### 10. Longest Increasing Subsequence
+
+Given an array of integers, find the length of the longest (strictly) increasing subsequence from the given array.
+
+Example:
+
+Input: </br>
+N = 16 </br>
+A[]={0,8,4,12,2,10,6,14,1,9,5,13,3,11,7,15} </br>
+Output: 6 </br>
+Explanation:Longest increasing subsequence </br>
+0 2 6 9 13 15, which has length 6 </br>
