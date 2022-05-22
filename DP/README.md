@@ -145,3 +145,21 @@ Output: 6 </br>
 Explanation:Longest increasing subsequence </br>
 0 2 6 9 13 15, which has length 6 </br>
 - [LIS](https://github.com/pskarthick15/Programming/blob/main/DP/LIS.cpp) </br>
+
+
+### Largest square formed in a matrix 
+
+Given a binary matrix mat of size n * m, find out the maximum size square sub-matrix with all 1s.
+
+Example:
+
+Input: n = 2, m = 2 </br>
+mat = {{1, 1}, </br>
+       {1, 1}} </br>
+Output: 2 </br>
+Explaination: The maximum size of the square </br>
+sub-matrix is 2. The matrix itself is the </br>
+maximum sized sub-matrix in this case. </br>
+
+- An important approach here is that it is not intuitive to use a recursive solution or think in that direction. So just go with the 2D array DP approach. Formula => as all the individual elements in DP of 0th row and column can be a right bottom part of of matrix and form a square matrix of size 1, fill with 1. Then for other elements go with formula dp[i][j]=min(dp[i][j-1],dp[i-1][j],dp[i-1][j-1]). </br>
+- [Largest Square Matrix](https://github.com/pskarthick15/Programming/blob/main/DP/largest_sq_matrix.cpp)
