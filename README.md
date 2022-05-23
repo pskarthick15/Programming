@@ -103,3 +103,22 @@ The two unique rows are 1 1 0 1 and
 Here the basic approach is to keep track of the word that has already been visited in our Trie. So we use a visited flag along with the links or children variable(for boolean value storage)
 
 - [Unique_rows](https://github.com/pskarthick15/Programming/blob/main/trie_sde3.cpp)
+
+
+### Maximum path sum in matrix
+
+Given a NxN matrix of positive integers. There are only three possible moves from a cell Matrix[r][c].
+
+Matrix [r+1] [c] </br>
+Matrix [r+1] [c-1] </br>
+Matrix [r+1] [c+1] </br>
+Starting from any column in row 0 return the largest sum of any of the paths up to row N-1. </br>
+
+Example: </br>
+
+Input: N = 2 </br>
+Matrix = {{348, 391}, </br>
+          {618, 193}} </br>
+Output: 1009 </br>
+Explaination: The best path is 391 -> 618. </br>
+It gives the sum = 1009. </br>
