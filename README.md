@@ -122,3 +122,4 @@ Matrix = {{348, 391}, </br>
 Output: 1009 </br>
 Explaination: The best path is 391 -> 618. </br>
 It gives the sum = 1009. </br>
+- [Largest matrix path](https://github.com/pskarthick15/Programming/blob/main/DP/largest_matrix_path.cpp) </br>
