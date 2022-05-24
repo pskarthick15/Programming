@@ -180,3 +180,4 @@ Output: 14 </br>
 Explanation: choose two oranges to minimize </br>
 cost. First orange of 2Kg and cost 10. </br>
 Second orange of 3Kg and cost 4. </br>
+- [Min Cost to fill weight in bag](https://github.com/pskarthick15/Programming/blob/main/DP/fill_weight_in_bag.cpp)
