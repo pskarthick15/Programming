@@ -163,3 +163,20 @@ maximum sized sub-matrix in this case. </br>
 
 - An important approach here is that it is not intuitive to use a recursive solution or think in that direction. So just go with the 2D array DP approach. Formula => as all the individual elements in DP of 0th row and column can be a right bottom part of of matrix and form a square matrix of size 1, fill with 1. Then for other elements go with formula dp[i][j]=min(dp[i][j-1],dp[i-1][j],dp[i-1][j-1]). </br>
 - [Largest Square Matrix](https://github.com/pskarthick15/Programming/blob/main/DP/largest_sq_matrix.cpp)
+
+### Minimum cost to fill given weight in a bag
+
+Given an array cost[] of positive integers of size N and an integer W, cost[i] represents the cost of ‘i’ kg packet of oranges, the task is to find the minimum cost to buy W kgs of oranges. If it is not possible to buy exactly W kg oranges then the output will be -1 </br>
+
+Note: </br>
+1. cost[i] = -1 means that ‘i’ kg packet of orange is unavailable </br>
+2. It may be assumed that there is infinite supply of all available packet types. </br>
+
+Example:
+
+Input: N = 5, arr[] = {20, 10, 4, 50, 100} </br>
+W = 5 </br>
+Output: 14 </br>
+Explanation: choose two oranges to minimize </br>
+cost. First orange of 2Kg and cost 10. </br>
+Second orange of 3Kg and cost 4. </br>
