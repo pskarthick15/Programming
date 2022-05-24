@@ -181,3 +181,22 @@ Explanation: choose two oranges to minimize </br>
 cost. First orange of 2Kg and cost 10. </br>
 Second orange of 3Kg and cost 4. </br>
 - [Min Cost to fill weight in bag](https://github.com/pskarthick15/Programming/blob/main/DP/fill_weight_in_bag.cpp)
+
+### Minimum removals from array to make max – min <= K
+
+Given N integers and K, find the minimum number of elements that should be removed, such that Amax-Amin<=K. After the removal of elements, Amax and Amin is considered among the remaining elements. 
+
+Examples: 
+
+Input : a[] = {1, 3, 4, 9, 10, 11, 12, 17, 20} </br>
+          k = 4 </br>
+Output : 5 </br>
+Explanation: Remove 1, 3, 4 from beginning </br>
+and 17, 20 from the end. </br>
+
+Input : a[] = {1, 5, 6, 2, 8}  K=2 </br>
+Output : 3 </br>
+Explanation: There are multiple ways to </br>
+remove elements in this case. </br>
+One among them is to remove 5, 6, 8. </br>
+The other is to remove 1, 2, 5 </br>
