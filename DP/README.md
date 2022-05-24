@@ -200,3 +200,4 @@ Explanation: There are multiple ways to </br>
 remove elements in this case. </br>
 One among them is to remove 5, 6, 8. </br>
 The other is to remove 1, 2, 5 </br>
+- [Minimum elements to remove to make <=K](https://github.com/pskarthick15/Programming/blob/main/DP/min_elements%20to_remove.cpp)
