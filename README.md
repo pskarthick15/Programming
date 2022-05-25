@@ -135,3 +135,4 @@ Input: S1 = "ABCDGH", S2 = "ACDGHR" </br>
 Output: 4 </br>
 Explanation: The longest common substring </br>
 is "CDGH" which has length 4. </br>
+- [Longest common substring](https://github.com/pskarthick15/Programming/blob/main/DP/Longest_common_substring.cpp)
