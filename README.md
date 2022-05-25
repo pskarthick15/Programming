@@ -157,3 +157,4 @@ For 1st example when n = 8 </br>
 two possible permutations but </br>
 these represent the same </br>
 combination. Hence output is 1. </br>
+- [Reach a given score](https://github.com/pskarthick15/Programming/blob/main/DP/reachable_sum_game.cpp)
