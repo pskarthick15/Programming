@@ -218,3 +218,5 @@ Explanation: </br>
 1.Pick the 2nd element thrice. </br>
 2.Total profit = 1 + 1 + 1 = 3. Also the total </br>
   weight = 1 + 1 + 1  = 3 which is <= W. </br>
+
+- [Knapsack duplicate](https://github.com/pskarthick15/Programming/blob/main/DP/knapsack_duplicate.cpp)
