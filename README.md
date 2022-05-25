@@ -136,3 +136,24 @@ Output: 4 </br>
 Explanation: The longest common substring </br>
 is "CDGH" which has length 4. </br>
 - [Longest common substring](https://github.com/pskarthick15/Programming/blob/main/DP/Longest_common_substring.cpp)
+
+### Reach a given score 
+
+Consider a game where a player can score 3 or 5 or 10 points in a move. Given a total score n, find number of distinct combinations to reach the given score.
+
+Example: </br>
+Input </br>
+3 </br>
+8 </br>
+20 </br>
+13 </br>
+Output </br>
+1 </br>
+4 </br>
+2 </br>
+Explanation </br>
+For 1st example when n = 8 </br>
+{ 3, 5 } and {5, 3} are the </br>
+two possible permutations but </br>
+these represent the same </br>
+combination. Hence output is 1. </br>
