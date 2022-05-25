@@ -201,3 +201,20 @@ remove elements in this case. </br>
 One among them is to remove 5, 6, 8. </br>
 The other is to remove 1, 2, 5 </br>
 - [Minimum elements to remove to make <=K](https://github.com/pskarthick15/Programming/blob/main/DP/min_elements%20to_remove.cpp)
+
+### Knapsack with Duplicate Items
+
+Given a set of N items, each with a weight and a value, represented by the array w[] and val[] respectively. Also, a knapsack with weight limit W.
+The task is to fill the knapsack in such a way that we can get the maximum profit. Return the maximum profit.
+Note: Each item can be taken any number of times.
+
+Example:
+
+Input: N = 2, W = 3 </br>
+val[] = {1, 1} </br>
+wt[] = {2, 1} </br>
+Output: 3 </br>
+Explanation: </br>
+1.Pick the 2nd element thrice. </br>
+2.Total profit = 1 + 1 + 1 = 3. Also the total </br>
+  weight = 1 + 1 + 1  = 3 which is <= W. </br>
