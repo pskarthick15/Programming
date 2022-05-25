@@ -123,3 +123,15 @@ Output: 1009 </br>
 Explaination: The best path is 391 -> 618. </br>
 It gives the sum = 1009. </br>
 - [Largest matrix path](https://github.com/pskarthick15/Programming/blob/main/DP/largest_matrix_path.cpp) </br>
+
+### Longest Common Substring 
+
+Given two strings. The task is to find the length of the longest common substring.
+
+
+Example:
+
+Input: S1 = "ABCDGH", S2 = "ACDGHR" </br>
+Output: 4 </br>
+Explanation: The longest common substring </br>
+is "CDGH" which has length 4. </br>
