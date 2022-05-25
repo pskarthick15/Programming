@@ -220,3 +220,30 @@ Explanation: </br>
   weight = 1 + 1 + 1  = 3 which is <= W. </br>
 
 - [Knapsack duplicate](https://github.com/pskarthick15/Programming/blob/main/DP/knapsack_duplicate.cpp)
+
+### Word Break (Also in tries. This is not the optimal solution)
+
+Given a string A and a dictionary of n words B, find out if A can be segmented into a space-separated sequence of dictionary words.
+
+Note: From the dictionary B each word can be taken any number of times and in any order.
+
+Example 1: </br>
+Input: </br>
+n = 12 </br>
+B={"i","like","sam","sung","samsung","mobile","ice","cream","icecream","man", "go", "mango" } </br>
+A = "ilike" </br>
+Output: </br>
+1 </br>
+Explanation: </br>
+The string can be segmented as "i like". </br>
+Example 2: </br>
+Input: </br>
+n = 12 </br>
+B={"i","like","sam","sung","samsung","mobile","ice","cream","icecream","man", "go", "mango" } </br>
+A = "ilikesamsung" </br>
+Output: </br>
+1 </br>
+Explanation: </br>
+The string can be segmented as </br>
+"i like samsung" or "i like sam sung". </br>
+- [Word Break](https://github.com/pskarthick15/Programming/blob/main/DP/word_break.cpp)
