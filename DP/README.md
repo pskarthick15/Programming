@@ -292,3 +292,4 @@ Explanation: </br>
 Trader earns 100 as sum of 28 and 72 </br>
 Buy at price 2, sell at 30, </br>
 Buy at 8 and sell at 80 </br>
+- [Buy Sell Stocks](https://github.com/pskarthick15/Programming/blob/main/DP/Buy_sell_stocks.cpp)
