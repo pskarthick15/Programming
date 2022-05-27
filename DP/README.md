@@ -262,3 +262,33 @@ A can win by picking 3 coins in first chance. </br>
 Now 2 coins will be left so B will pick one </br>
 coin and now A can win by picking the last coin. </br>
 - [Coin Game](https://github.com/pskarthick15/Programming/blob/main/DP/coin_game.cpp)
+
+### Buy and Sell a Share at most twice
+
+In daily share trading, a buyer buys shares in the morning and sells them on the same day. If the trader is allowed to make at most 2 transactions in a day, whereas the second transaction can only start after the first one is complete (Buy->sell->Buy->sell). The stock prices throughout the day  are represented in the form of an array price. 
+
+Given an array price of size N, find out the maximum profit that a share trader could have made.
+
+Example 1:
+
+Input: </br>
+6 </br>
+10 22 5 75 65 80 </br>
+Output: </br>
+87 </br>
+Explanation: </br>
+Trader earns 87 as sum of 12, 75 </br>
+Buy at 10, sell at 22, </br>
+Buy at 5 and sell at 80 </br>
+Example 2: </br>
+
+Input: </br>
+7 </br>
+2 30 15 10 8 25 80 </br>
+Output: </br>
+100 </br>
+Explanation: </br>
+
+Trader earns 100 as sum of 28 and 72 </br>
+Buy at price 2, sell at 30, </br>
+Buy at 8 and sell at 80 </br>
