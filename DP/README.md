@@ -293,3 +293,18 @@ Trader earns 100 as sum of 28 and 72 </br>
 Buy at price 2, sell at 30, </br>
 Buy at 8 and sell at 80 </br>
 - [Buy Sell Stocks](https://github.com/pskarthick15/Programming/blob/main/DP/Buy_sell_stocks.cpp)
+
+### Wildcard Pattern Matching
+
+Given a text and a wildcard pattern, implement wildcard pattern matching algorithm that finds if wildcard pattern is matched with text. The matching should cover the entire text (not partial text).
+The wildcard pattern can include the characters ‘?’ and ‘*’ 
+‘?’ – matches any single character 
+‘*’ – Matches any sequence of characters (including the empty sequence)
+
+For example,
+
+Text = "baaabab", </br>
+Pattern = “*****ba*****ab", output : true </br>
+Pattern = "baaa?ab", output : true </br>
+Pattern = "ba*a?", output : true </br>
+Pattern = "a*ab", output : false </br>
