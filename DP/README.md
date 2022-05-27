@@ -261,3 +261,4 @@ There are 5 coins, every player can pick 1 or </br>
 A can win by picking 3 coins in first chance. </br>
 Now 2 coins will be left so B will pick one </br>
 coin and now A can win by picking the last coin. </br>
+- [Coin Game](https://github.com/pskarthick15/Programming/blob/main/DP/coin_game.cpp)
