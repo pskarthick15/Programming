@@ -305,7 +305,8 @@ For example,
 
 Text = "baaabab" </br>
 
-Pattern =*ba*ab", output : true </br>
+Pattern =^ba^ab", output : true </br>
 Pattern = "baaa?ab", output : true </br>
-Pattern = "ba*a?", output : true </br>
-Pattern = "a*ab", output : false </br>
+Pattern = "ba^a?", output : true </br>
+Pattern = "a^ab", output : false </br>
+- Note: Here ^ represents *
