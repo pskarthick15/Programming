@@ -311,3 +311,33 @@ Pattern = "ba^a?", output : true </br>
 Pattern = "a^ab", output : false </br>
 - Note: Here ^ represents *
 - [Wildcard Match](https://github.com/pskarthick15/Programming/blob/main/DP/Wildcard_match.cpp)
+
+### Mobile numeric keypad 
+
+Given the mobile numeric keypad. You can only press buttons that are up, left, right, or down to the current button. You are not allowed to press bottom row corner buttons (i.e. * and # ). Given a number N, the task is to find out the number of possible numbers of the given length.
+
+Example 1:
+
+Input: 1 </br>
+Output: 10 </br>
+Explanation: Number of possible numbers </br>
+would be 10 (0, 1, 2, 3, …., 9) </br>
+Example 2: </br>
+Input: N = 2 </br>
+Output: 36 </br>
+Explanation: Possible numbers: 00, 08, 11, </br>
+12, 14, 22, 21, 23, 25 and so on. </br>
+If we start with 0, valid numbers </br>
+will be 00, 08 (count: 2) </br>
+If we start with 1, valid numbers </br>
+will be 11, 12, 14 (count: 3) </br>
+If we start with 2, valid numbers </br>
+will be 22, 21, 23,25 (count: 4) </br>
+If we start with 3, valid numbers </br>
+will be 33, 32, 36 (count: 3) </br>
+If we start with 4, valid numbers </br>
+will be 44,41,45,47 (count: 4) </br>
+If we start with 5, valid numbers </br>
+will be 55,54,52,56,58 (count: 5) </br>
+and so on.. </br>
+- [Mobile numeric keypad](https://github.com/pskarthick15/Programming/blob/main/DP/mobile_keypad.cpp)
