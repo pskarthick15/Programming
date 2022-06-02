@@ -316,12 +316,12 @@ Pattern = "a^ab", output : false </br>
 
 Given the mobile numeric keypad. You can only press buttons that are up, left, right, or down to the current button. You are not allowed to press bottom row corner buttons (i.e. * and # ). Given a number N, the task is to find out the number of possible numbers of the given length.
 
-Example 1:
-
+Example 1: </br>
 Input: 1 </br>
 Output: 10 </br>
 Explanation: Number of possible numbers </br>
 would be 10 (0, 1, 2, 3, …., 9) </br>
+
 Example 2: </br>
 Input: N = 2 </br>
 Output: 36 </br>
