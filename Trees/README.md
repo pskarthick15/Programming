@@ -9,6 +9,7 @@ Mirror tree will be: </br>
 
 Inorder of original tree: 12 1 2 8 9 </br>
 Inorder of mirror tree: 9 8 2 1 12 </br>
+- [Mirror tree](https://github.com/pskarthick15/Programming/blob/main/Trees/mirrortree.cpp)
 
 ### 4. Leftview
 
@@ -17,5 +18,4 @@ Given a Binary Tree, print Left view of it. Left view of a Binary Tree is set of
 Left view of following tree is 1 2 4 8.
 
 <img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(30).png" width="206" height="206"> </br>
-
-
+- [Leftview](https://github.com/pskarthick15/Programming/blob/main/Trees/leftview.cpp)
