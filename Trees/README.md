@@ -26,6 +26,6 @@ Given below is a binary tree. The task is to print the top view of binary tree. 
 
 <img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(33).png" width="206" height="206"> </br>
 
-Top view will be: 4 2 1 3 7
+Top view will be: 2 1 3
 Note: Return nodes from leftmost node to rightmost node.
 - [Topview](https://github.com/pskarthick15/Programming/blob/main/Trees/topview.cpp)
