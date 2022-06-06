@@ -19,3 +19,13 @@ Left view of following tree is 1 2 4 8.
 
 <img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(30).png" width="206" height="206"> </br>
 - [Leftview](https://github.com/pskarthick15/Programming/blob/main/Trees/leftview.cpp)
+
+### 5. Topview
+
+Given below is a binary tree. The task is to print the top view of binary tree. Top view of a binary tree is the set of nodes visible when the tree is viewed from the top. For the given below tree
+
+<img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(33).png" width="206" height="206"> </br>
+
+Top view will be: 4 2 1 3 7
+Note: Return nodes from leftmost node to rightmost node.
+- [Topview](https://github.com/pskarthick15/Programming/blob/main/Trees/topview.cpp)
