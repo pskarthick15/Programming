@@ -60,3 +60,13 @@ inorder[] = {3 1 4 0 5 2} </br>
 preorder[] = {0 1 3 4 2 5} </br>
 Output: 3 4 1 5 2 0
 - [Construct tree](https://github.com/pskarthick15/Programming/blob/main/Trees/construct_tree1.cpp)
+
+### Check sum tree
+
+Given a Binary Tree. Return true if, for every node X in the tree other than the leaves, its value is equal to the sum of its left subtree's value and its right subtree's value. Else return false.
+
+An empty tree is also a Sum Tree as the sum of an empty tree can be considered to be 0. A leaf node is also considered a Sum Tree.
+
+<img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(36).png" width="206" height="206"> </br>
+
+- [Check sum](https://github.com/pskarthick15/Programming/tree/main/Trees)
