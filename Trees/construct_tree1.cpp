@@ -37,15 +37,15 @@ Node*buildtree(vector<int>&preorder,vector<int>&inorder)
     return root;
 }
 
-void print_preorder(Node*root)
+void print_postorder(Node*root)
 {
     if(root==NULL)
         return;
     else
     {
-        cout<<root->data<<" ";
         print_preorder(root->left);
         print_preorder(root->right);
+        cout<<root->data<<" ";
     }
 }
 
@@ -69,6 +69,6 @@ int main() {
     }
         
     Node*root=buildtree(preorder,inorder);
-    print_preorder(root);
+    print_postorder(root);
     return 0;
 }
