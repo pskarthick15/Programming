@@ -39,3 +39,23 @@ Given a Binary Tree of size N , where each node can have positive or negative va
 Expected Time Complexity: O(N) </br>
 Expected Auxiliary Space: O(height of tree) </br>
 - [Sum tree](https://github.com/pskarthick15/Programming/blob/main/Trees/sumtree.cpp)
+
+### Construct a tree and return its postorder given its inorder and preorder traversals
+
+Given 2 Arrays of Inorder and preorder traversal. Construct a tree and print the Postorder traversal. 
+
+Example 1:
+
+Input: </br>
+N = 4 </br>
+inorder[] = {1 6 8 7} </br>
+preorder[] = {1 6 7 8} </br>
+Output: 8 7 6 1 </br>
+
+Example 2:
+
+Input: </br>
+N = 6 </br>
+inorder[] = {3 1 4 0 5 2} </br>
+preorder[] = {0 1 3 4 2 5} </br>
+Output: 3 4 1 5 2 0
