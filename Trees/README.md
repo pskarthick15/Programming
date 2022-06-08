@@ -59,3 +59,4 @@ N = 6 </br>
 inorder[] = {3 1 4 0 5 2} </br>
 preorder[] = {0 1 3 4 2 5} </br>
 Output: 3 4 1 5 2 0
+- [Construct tree](https://github.com/pskarthick15/Programming/blob/main/Trees/construct_tree1.cpp)
