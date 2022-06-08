@@ -29,3 +29,13 @@ Given below is a binary tree. The task is to print the top view of binary tree. 
 Top view will be: 2 1 3
 Note: Return nodes from leftmost node to rightmost node.
 - [Topview](https://github.com/pskarthick15/Programming/blob/main/Trees/topview.cpp)
+
+### 6. Sum tree
+
+Given a Binary Tree of size N , where each node can have positive or negative values. Convert this to a tree where each node contains the sum of the left and right sub trees of the original tree. The values of leaf nodes are changed to 0.
+
+<img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(34).png" width="206" height="206"> </br>
+
+Expected Time Complexity: O(N) </br>
+Expected Auxiliary Space: O(height of tree) </br>
+- [Sum tree](https://github.com/pskarthick15/Programming/blob/main/Trees/sumtree.cpp)
