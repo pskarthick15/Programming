@@ -70,3 +70,13 @@ An empty tree is also a Sum Tree as the sum of an empty tree can be considered t
 <img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(36).png" width="206" height="206"> </br>
 
 - [Check sum](https://github.com/pskarthick15/Programming/tree/main/Trees)
+
+
+### Leaf at same level
+
+Given a Binary Tree, check if all leaves are at same level or not.
+
+<img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(38).png" width="206" height="206">     <img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(40).png" width="206" height="206">
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(height of tree)
