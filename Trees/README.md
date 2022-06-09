@@ -40,7 +40,7 @@ Expected Time Complexity: O(N) </br>
 Expected Auxiliary Space: O(height of tree) </br>
 - [Sum tree](https://github.com/pskarthick15/Programming/blob/main/Trees/sumtree.cpp)
 
-### Construct a tree and return its postorder given its inorder and preorder traversals
+### 7. Construct a tree and return its postorder given its inorder and preorder traversals
 
 Given 2 Arrays of Inorder and preorder traversal. Construct a tree and print the Postorder traversal. 
 
@@ -61,7 +61,7 @@ preorder[] = {0 1 3 4 2 5} </br>
 Output: 3 4 1 5 2 0
 - [Construct tree](https://github.com/pskarthick15/Programming/blob/main/Trees/construct_tree1.cpp)
 
-### Check sum tree
+### 8. Check sum tree
 
 Given a Binary Tree. Return true if, for every node X in the tree other than the leaves, its value is equal to the sum of its left subtree's value and its right subtree's value. Else return false.
 
@@ -72,7 +72,7 @@ An empty tree is also a Sum Tree as the sum of an empty tree can be considered t
 - [Check sum](https://github.com/pskarthick15/Programming/tree/main/Trees)
 
 
-### Leaf at same level
+### 9. Leaf at same level
 
 Given a Binary Tree, check if all leaves are at same level or not.
 
