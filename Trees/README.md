@@ -101,3 +101,10 @@ Given a binary tree of size N. Your task is to complete the function sumOfLongRo
 - [Sum of longest path from root to leaf](https://github.com/pskarthick15/Programming/blob/main/Trees/sum_longest_roottoleaf.cpp) </br>
 Expected Time Complexity: O(N) </br>
 Expected Auxiliary Space: O(N) </br>
+
+### 12. Max subtree path sum possible in given tree
+
+example: In the tree with preorder 1 2 4 5 3 6 7 => ans is 18
+         In the tree with preorder 4 2 7 1 6 5 2 3 => ans is 21
+         
+- [Max subtree sum path](https://github.com/pskarthick15/Programming/tree/main/Trees)
