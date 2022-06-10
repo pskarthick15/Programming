@@ -88,6 +88,6 @@ Expected Auxiliary Space: O(height of tree)
 
 example:
 
-   1 2 3  and 1 3 2 (Preorder of trees)
-Here print true or 1 as both trees are mirror of each other.
+   1 2 3  and 1 3 2 (Preorder of trees) </br>
+Here print true or 1 as both trees are mirror of each other. </br>
 - [Check Mirror](https://github.com/pskarthick15/Programming/blob/main/Trees/check_mirror.cpp)
