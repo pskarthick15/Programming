@@ -98,4 +98,6 @@ Given a binary tree of size N. Your task is to complete the function sumOfLongRo
 
 <img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(44).png" width="206" height="206">     <img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(43).png" width="206" height="206">
 
-- [Sum of longest path from root to leaf](https://github.com/pskarthick15/Programming/blob/main/Trees/sum_longest_roottoleaf.cpp)
+- [Sum of longest path from root to leaf](https://github.com/pskarthick15/Programming/blob/main/Trees/sum_longest_roottoleaf.cpp) </br>
+Expected Time Complexity: O(N) </br>
+Expected Auxiliary Space: O(N) </br>
