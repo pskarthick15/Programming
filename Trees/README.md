@@ -91,3 +91,11 @@ example:
    1 2 3  and 1 3 2 (Preorder of trees) </br>
 Here print true or 1 as both trees are mirror of each other. </br>
 - [Check Mirror](https://github.com/pskarthick15/Programming/blob/main/Trees/check_mirror.cpp)
+
+### 11. Sum of the Longest Bloodline of a Tree (Sum of nodes on the longest path from root to leaf node) 
+
+Given a binary tree of size N. Your task is to complete the function sumOfLongRootToLeafPath(), that find the sum of all nodes on the longest path from root to leaf node. If two or more paths compete for the longest path, then the path having maximum sum of nodes is being considered.
+
+<img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(44).png" width="206" height="206">     <img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%20(43).png" width="206" height="206">
+
+- [Sum of longest path from root to leaf](https://github.com/pskarthick15/Programming/blob/main/Trees/sum_longest_roottoleaf.cpp)
