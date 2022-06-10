@@ -83,3 +83,13 @@ Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(height of tree)
 
 - [Leaf at same level](https://github.com/pskarthick15/Programming/blob/main/Trees/leaf_at_same_level.cpp)
+
+### 10. Given 2 trees check if they are mirror of each other or not
+
+example:
+
+     1             1
+   2   3         3   2
+   
+Here print true or 1 as both trees are mirror of each other.
+- [Check Mirror](https://github.com/pskarthick15/Programming/blob/main/Trees/check_mirror.cpp)
