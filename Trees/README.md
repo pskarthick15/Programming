@@ -113,5 +113,5 @@ example: In the tree with preorder 1 2 4 5 3 6 7 => ans is 18
 
 Given a binary tree, task is to find subtree with maximum sum in tree. </br>
 Examples: </br>
-<img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%202022-06-10%20200140.png" width="206" height="206"> </br>
--[Largest subtree sum](https://github.com/pskarthick15/Programming/blob/main/Trees/largestsubtreesum.cpp)
+<img src="https://github.com/pskarthick15/Programming/blob/main/Trees/screenshots/Screenshot%202022-06-10%20200140.png" width="250" height="250"> </br>
+- [Largest subtree sum](https://github.com/pskarthick15/Programming/blob/main/Trees/largestsubtreesum.cpp)
