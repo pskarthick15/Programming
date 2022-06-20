@@ -16,11 +16,25 @@ void bfstraversal(int node,vector<int>graph[],vector<bool>&vis,vector<int>&bfs)
         {
             if(!vis[it])
             {
+                vis[it]=1;
                 q.push(it);
             }
         }
     }
 }
+
+
+void dfstraversal(int node,vector<int>graph[],vector<bool>&vis,vector<int>&dfs)
+{
+    vis[node]=1;
+    dfs.push_back(node);
+    for(auto it:graph[node])
+    {
+        if(!vis[it])
+            dfstraversal(it,graph,vis,dfs);
+    }
+}
+
 
 int main() {
     // Write C++ code here
@@ -36,6 +50,7 @@ int main() {
     }
     //BFS traversal
     vector<bool>visited1(n+1,0);
+    vector<bool>visited2(n+1,0);
     vector<int>bfs;
     vector<int>dfs;
     for(int i=1;i<=n;i++)//Doing traversal for all componenets
@@ -43,15 +58,19 @@ int main() {
         if(!visited1[i])
             bfstraversal(i,g,visited1,bfs);
     }
-    for(int i=0;bfs.size();i++)
+    for(int i=0;i<bfs.size();i++)
     {
         cout<<bfs[i]<<" ";
     }
     cout<<endl;
-    /*for(int i=1;i<=n;i++)//Doing traversal for all componenets
+    for(int i=1;i<=n;i++)//Doing traversal for all componenets
     {
         if(!visited2[i])
-            dfstraversal(i,g,visited,dfs);
-    }*/
+            dfstraversal(i,g,visited2,dfs);
+    }
+    for(int i=0;i<dfs.size();i++)
+    {
+        cout<<dfs[i]<<" ";
+    }
     return 0;
 }
