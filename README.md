@@ -105,7 +105,7 @@ Here the basic approach is to keep track of the word that has already been visit
 - [Unique_rows](https://github.com/pskarthick15/Programming/blob/main/trie_sde3.cpp)
 
 
-### Maximum path sum in matrix
+### 11. Maximum path sum in matrix
 
 Given a NxN matrix of positive integers. There are only three possible moves from a cell Matrix[r][c].
 
@@ -124,7 +124,7 @@ Explaination: The best path is 391 -> 618. </br>
 It gives the sum = 1009. </br>
 - [Largest matrix path](https://github.com/pskarthick15/Programming/blob/main/DP/largest_matrix_path.cpp) </br>
 
-### Longest Common Substring 
+### 12. Longest Common Substring 
 
 Given two strings. The task is to find the length of the longest common substring.
 
@@ -137,7 +137,7 @@ Explanation: The longest common substring </br>
 is "CDGH" which has length 4. </br>
 - [Longest common substring](https://github.com/pskarthick15/Programming/blob/main/DP/Longest_common_substring.cpp)
 
-### Reach a given score 
+### 13. Reach a given score 
 
 Consider a game where a player can score 3 or 5 or 10 points in a move. Given a total score n, find number of distinct combinations to reach the given score.
 
@@ -158,3 +158,18 @@ two possible permutations but </br>
 these represent the same </br>
 combination. Hence output is 1. </br>
 - [Reach a given score](https://github.com/pskarthick15/Programming/blob/main/DP/reachable_sum_game.cpp)
+
+
+### 14.  Multiply Strings
+
+Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+
+Note: You must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+Example 1:</br>
+Input: num1 = "2", num2 = "3" </br>
+Output: "6"</br>
+
+Example 2:</br>
+Input: num1 = "123", num2 = "456"</br>
+Output: "56088"</br>
