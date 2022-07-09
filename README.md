@@ -173,3 +173,4 @@ Output: "6"</br>
 Example 2:</br>
 Input: num1 = "123", num2 = "456"</br>
 Output: "56088"</br>
+- [Multiply Large Numbers](https://github.com/pskarthick15/Programming/blob/main/multiply_large_numbers.cpp)
