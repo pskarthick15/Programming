@@ -134,3 +134,5 @@ Output: true </br>
 Input: head = [1,4,2,6,8], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3] </br>
 Output: false </br>
 Explanation: There is no path in the binary tree that contains all the elements of the linked list from head. </br>
+
+- [Binary Tree Linked List](https://github.com/pskarthick15/Programming/blob/main/Trees/binarytreeLL.cpp)
