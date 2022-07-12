@@ -193,3 +193,22 @@ Input: temperatures = [30,60,90] </br>
 Output: [1,1,0] </br>
 
 - [Next Greater Temperature](https://github.com/pskarthick15/Programming/blob/main/NGE.cpp)
+
+### 16. Matchsticks to Square
+
+You are given an integer array matchsticks where matchsticks[i] is the length of the ith matchstick. You want to use all the matchsticks to make one square. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time.
+
+Return true if you can make this square and false otherwise.
+
+Example 1: </br>
+Input: matchsticks = [1,1,2,2,2] </br>
+Output: true </br>
+Explanation: You can form a square with length 2, one side of the square came two sticks with length 1. </br>
+
+Example 2: </br>
+Input: matchsticks = [3,3,3,3,4] </br>
+Output: false </br>
+Explanation: You cannot find a way to form a square with all the matchsticks. </br>
+-[Matchsticks to form a square](https://github.com/pskarthick15/Programming/blob/main/matchsticks.cpp)
+
+
