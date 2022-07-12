@@ -223,5 +223,4 @@ Output: [1,2,3,6,9,8,7,4,5] </br>
 Example 2: </br>
 Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]] </br>
 Output: [1,2,3,4,8,12,11,10,9,5,6,7] </br>
-
-
+- [Spiral Matrix Traversal](https://github.com/pskarthick15/Programming/blob/main/spiralmattrav.cpp)
