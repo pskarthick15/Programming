@@ -47,31 +47,33 @@ Input: n = 6, connections = [[0,1],[0,2],[0,3],[1,2]] </br>
 Output: -1 </br>
 Explanation: There are not enough cables. </br>
 
--[BFS variant 2](https://github.com/pskarthick15/Programming/blob/main/graphs/bfs_var2.cpp)
+- [BFS variant 2](https://github.com/pskarthick15/Programming/blob/main/graphs/bfs_var2.cpp)
 
-
-BFS Variant-3
+## BFS Variant-3
 
 Given an input having a 2D array where 0s represent water and 1s represent land, find the no of Islands present in the grid. Assume only 0s and 1s are present in the 2D matrix.
 
-EXMAPLE 1
-INPUT:
-4 2
+EXMAPLE 1 </br>
+INPUT: </br>
+4 2 </br>
 
-0 1
-1 0
-1 1
-1 0
+0 1 </br>
+1 0 </br>
+1 1 </br>
+1 0 </br>
 
 OUTPUT: 1
 As the no of Islands(which is land area covered by water) is 1 in the grid above
+
+EXAMPLE 2 </br>
+INPUT: </br>
 5 4
 
-0 1 1 0
-0 1 1 0
-0 0 1 0
-0 0 0 0
-1 1 0 1
+0 1 1 0 </br>
+0 1 1 0 </br>
+0 0 1 0 </br>
+0 0 0 0 </br>
+1 1 0 1 </br>
 
 OUTPUT: 3
 As the no of Islands(which is land area covered by water) is 3 in the grid above
