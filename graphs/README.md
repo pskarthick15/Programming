@@ -100,7 +100,7 @@ Output: </br>
 2 0 1 </br>
 As here, we have the input start with 1,1 now the oldcolour of it is 1 so we check the neighbours if they are also of the same colour which is 1, if yes colour them then check their neighbours and so on till we colour all.
 
-- [Floodfill_Algorithm](https://github.com/pskarthick15/Programming/blob/main/graphs/Floodfill_dfs.cpp)
+- [Floodfill Algorithm](https://github.com/pskarthick15/Programming/blob/main/graphs/Floodfill_dfs.cpp)
 
 
 
