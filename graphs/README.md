@@ -81,3 +81,26 @@ As the no of Islands(which is land area covered by water) is 3 in the grid above
 - [BFS-Variant 3](https://github.com/pskarthick15/Programming/blob/main/graphs/island.cpp)
 
 
+## DFS Variant-1
+
+Given a matrix n*m, a source and destination and a colour, Colour the matrix such that all the 4 connected components starting from sr,sc are coloured with the new colour. That is colour the 4 connected neighbours of sr,sc with newcolour then check for their neighbours and colour them also and so on 
+
+Example 1: 
+
+Input: </br>
+1 1 1 </br>
+1 1 0 </br>
+1 0 1 </br>
+sr=1, sc=1 </br>
+necolour=2 </br>
+
+Output: </br>
+2 2 2 </br>
+2 2 0 </br>
+2 0 1 </br>
+As here, we have the input start with 1,1 now the oldcolour of it is 1 so we check the neighbours if they are also of the same colour which is 1, if yes colour them then check their neighbours and so on till we colour all.
+
+- [Floodfill_Algorithm](https://github.com/pskarthick15/Programming/blob/main/graphs/Floodfill_dfs.cpp)
+
+
+
