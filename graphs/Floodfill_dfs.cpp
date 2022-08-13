@@ -39,6 +39,8 @@ int main() {
     cin>>newcol;
     
     vector<vector<bool>>vis(n,vector<bool>(m,0));
+    // For the neighbours of a given i and j to also be checked and accordingly coloured
+    // As we have for a given (i,j) as 4 connected components to be (i-1,j),(i+1,j),(i,j-1),(i,j+1)
     int delta_x[]={-1,0,1,0};
     int delta_y[]={0,1,0,-1};
     int oldcol=graph[sr][sc];
