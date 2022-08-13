@@ -9,6 +9,7 @@ void floodfilldfs(vector<vector<int>>&graph,vector<vector<bool>>&vis,int x,int y
 {
     vis[x][y]=1;
     graph[x][y]=newcol;
+    // For checking its neighbours which are 4 connected and accordingly colouring them also
     for(int i=0;i<4;i++)
     {
         int nx=x+del_x[i];
