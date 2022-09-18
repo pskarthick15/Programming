@@ -8,7 +8,7 @@ Return the root of the reversed tree.
 A binary tree is perfect if all parent nodes have two children and all leaves are on the same level.
 
 The level of a node is the number of edges along the path between it and the root node. </br>
-- (reverse_odd_levels)[https://github.com/pskarthick15/Programming/blob/main/leetcode_contest/contest_1_q2.cpp]
+- [reverse_odd_levels](https://github.com/pskarthick15/Programming/blob/main/leetcode_contest/contest_1_q2.cpp)
 
 ## Question 2 </br>
 You are given an array words of size n consisting of non-empty strings.
