@@ -19,4 +19,4 @@ For example, if words = ["a", "ab", "abc", "cab"], then the score of "ab" is 2, 
 Return an array answer of size n where answer[i] is the sum of scores of every non-empty prefix of words[i].
 
 Note that a string is considered as a prefix of itself. </br>
-(prefix_scores_in_array_of_strings)[https://github.com/pskarthick15/Programming/blob/main/leetcode_contest/contest_1_q2.cpp]
+[prefix_scores_in_array_of_strings](https://github.com/pskarthick15/Programming/blob/main/leetcode_contest/contest_1_q2.cpp)
