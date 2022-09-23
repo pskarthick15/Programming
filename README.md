@@ -254,11 +254,13 @@ Output: </br>
  120 </br>
 Explanation: </br>
  In the given array, we can see 1×2×3×4×5 gives maximum product value. </br>
- - [Maximum product subarray](https://github.com/pskarthick15/Programming/blob/main/maxpdtsubarray.cpp)
-
+ 
 Input: </br>
  Nums = [1,2,-3,0,-4,-5] </br>
 Output: </br>
  20 </br>
 Explanation: </br>
  In the given array, we can see (-4)×(-5) gives maximum product value. </br>
+
+ - [Maximum product subarray](https://github.com/pskarthick15/Programming/blob/main/maxpdtsubarray.cpp)
+
