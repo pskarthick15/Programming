@@ -246,4 +246,12 @@ Input: nums = [], target = 0 </br>
 Output: [-1,-1] </br>
 - [Seach first and last in a sorted array](https://github.com/pskarthick15/Programming/blob/main/searchfirstandlast.cpp)
 
+### 19. Max product subarray
 
+Input: </br>
+ Nums = [1,2,3,4,5,0] </br>
+Output: </br>
+ 120 </br>
+Explanation: </br>
+ In the given array, we can see 1×2×3×4×5 gives maximum product value. </br>
+ - [Maximum product subarray](https://github.com/pskarthick15/Programming/blob/main/maxpdtsubarray.cpp)
