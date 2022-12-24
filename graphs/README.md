@@ -128,3 +128,30 @@ The intuition is that BFS will take a step from cells containing 1 and will reac
 We will choose the BFS algorithm as it moves step by step and we want all of them to traverse in a single step together so that we can have a minimum count with us.
 
 - [Nearest1s](https://github.com/pskarthick15/Programming/blob/main/graphs/nearest1ofele.cpp)
+
+## DFS Variant-2
+
+Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+Example: 
+Input: grid = [ </br>
+  ["1","1","1","1","0"], </br>
+  ["1","1","0","1","0"], </br>
+  ["1","1","0","0","0"], </br>
+  ["0","0","0","0","0"] </br>
+] </br>
+
+Output: 1 (No. of connected 1s component is 1 only)
+
+Example 2:
+Input: grid = [ </br>
+  ["1","1","0","0","0"], </br>
+  ["1","1","0","0","0"], </br>
+  ["0","0","1","0","0"], </br>
+  ["0","0","0","1","1"] </br>
+] </br>
+Output: 3
+
+
