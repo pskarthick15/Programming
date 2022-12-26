@@ -158,6 +158,9 @@ Output: 3
 
 Problem Statement: You are given an N x M binary matrix grid, where 0 represents a sea cell and 1 represents a land cell. A move consists of walking from one land cell to another adjacent (4-directionally) land cell or walking off the boundary of the grid. Find the number of land cells in the grid for which we cannot walk off the boundary of the grid in any number of moves.
 
-ex: ![image](https://user-images.githubusercontent.com/53825361/209572539-8eba3bc8-d699-42eb-8951-16fb539ff187.png) </br>
-Output: 3
+
+ex:</br>
+![image](https://user-images.githubusercontent.com/53825361/209572539-8eba3bc8-d699-42eb-8951-16fb539ff187.png) </br>
+Output: 3</br>
+[No of enclaves](https://github.com/pskarthick15/Programming/blob/main/graphs/noofenclaves.cpp)
 
